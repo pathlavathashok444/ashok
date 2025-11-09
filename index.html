@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pathlavth Ashok | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1.5rem 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 0.8rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00adb5;
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #00adb5;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 1rem;
+    }
+
+    #skills .skill-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .skill {
+      background: #00adb5;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 25px;
+      font-weight: 600;
+      transition: transform 0.3s;
+    }
+
+    .skill:hover {
+      transform: scale(1.1);
+    }
+
+    .project {
+      background: white;
+      padding: 1.5rem;
+      margin: 1rem auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 600px;
+      text-align: left;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    button {
+      background: #00adb5;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1rem;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #007e86;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pathlavth Ashok</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is <b>Pathlavth Ashok</b>.</p>
+    <p>I am currently pursuing my <b>B.Tech</b> degree at <b>IIT Indore</b>, majoring in <b>Computer Science and Engineering (CSE)</b>.</p>
+    <p>My roll number is <b>240001050</b>.</p>
+    <p>I am passionate about technology, coding, and building innovative web applications that solve real-world problems.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div class="skill">C++</div>
+      <div class="skill">Data Structures & Algorithms</div>
+      <div class="skill">Database</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Hotel Management System</h3>
+      <p>Developed a complete Hotel Management website using HTML, CSS, and JavaScript that allows users to view, book, and manage rooms efficiently.</p>
+    </div>
+    <div class="project">
+      <h3>Mini Websites</h3>
+      <p>Designed multiple mini web applications showcasing frontend and backend integration to improve user interactivity and responsiveness.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <p>✔ Solved a maximum number of DSA problems on <b>LeetCode</b> improving problem-solving and algorithmic skills.</p>
+    <p>✔ Worked on a <b>Hotel Management project</b> implementing both frontend and backend features.</p>
+    <p>✔ Designed several mini web projects using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:pathlavathaashok@gmail.com">pathlavathaashok@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com" target="_blank">linkedin.com/in/pathlavth-ashok</a></p>
+    <button onclick="showMessage()">Click to Greet</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Pathlavth Ashok | B.Tech CSE | IIT Indore</p>
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Hello! Thank you for visiting Pathlavth Ashok’s Portfolio 😊");
+    }
+  </script>
+
+</body>
+</html>
